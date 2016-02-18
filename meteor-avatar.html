@@ -1,0 +1,14 @@
+<template name="userAvatar">
+  {{#if currentUser}}
+    <img src="{{src}}" class="{{class}}" id="{{id}}" width="{{width}}"
+     height="{{height}}" alt="{{alt}}" title="{{title}}" />
+  {{/if}}
+</template>
+
+
+<template name="uploadAvatar">
+  {{#if currentUser}}
+    <label for="uploadAvatarInput">{{label}}</label>
+    <input type="file" id="uploadAvatarInput" class="{{class}}"/>
+  {{/if}}
+</template>
