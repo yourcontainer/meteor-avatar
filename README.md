@@ -11,14 +11,14 @@ and then show the avatar
 ```
 {{> userAvatar id="avatar" width="100px" height="100px" }}
 ```
-you can use other options such as title, alt, class
+you can use other attributes such as title, alt, class
 
-show upload form
+Show upload form
 ```
 {{> uploadAvatar label="Upload avatar"}}
 ```
 
-Image stored in base64 on `profile.avatar` field, if you use collection2 package you must set up field in you schema
+Image stored in base64 in `profile.avatar` field, if you use collection2 package you must set up the field in you schema
 ```
 avatar: {
   type: String,
