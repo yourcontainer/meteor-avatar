@@ -1,7 +1,7 @@
 Package.describe({
   name: 'yourcontainer:meteor-avatar',
   version: '0.0.1',
-  summary: 'Simple helpers will be provide avatar system to you awasome users',
+  summary: 'Simple helpers will be useful provide the avatar system to your awesome users',
   git: 'https://github.com/yourcontainer/meteor-avatar',
   documentation: 'README.md'
 });
