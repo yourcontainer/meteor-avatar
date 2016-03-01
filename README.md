@@ -18,7 +18,7 @@ Show upload form
 {{> uploadAvatar label="Upload avatar"}}
 ```
 
-Image stored in base64 in `profile.avatar` field, if you use collection2 package you must set up the field in you schema
+Image stored in base64 in `profile.avatar` field, if you use collection2 package you must be set up the field in you schema
 ```
 avatar: {
   type: String,
